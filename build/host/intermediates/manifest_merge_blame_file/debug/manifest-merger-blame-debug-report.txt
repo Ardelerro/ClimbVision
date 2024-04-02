@@ -1,0 +1,109 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.processing.host"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->C:\Users\tassm\Documents\1050_processing\processing\.android\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="33" />
+9-->C:\Users\tassm\Documents\1050_processing\processing\.android\app\src\main\AndroidManifest.xml
+10
+11    <!--
+12         The INTERNET permission is required for development. Specifically,
+13         flutter needs it to communicate with the running application
+14         to allow setting breakpoints, to provide hot reload, etc.
+15    -->
+16    <uses-permission android:name="android.permission.INTERNET" />
+16-->C:\Users\tassm\Documents\1050_processing\processing\.android\app\src\main\AndroidManifest.xml:9:5-66
+16-->C:\Users\tassm\Documents\1050_processing\processing\.android\app\src\main\AndroidManifest.xml:9:22-64
+17    <uses-permission android:name="android.permission.CAMERA" />
+17-->[:camera_android] C:\Users\tassm\Documents\1050_processing\processing\.android\plugins_build_output\camera_android\intermediates\merged_manifest\debug\AndroidManifest.xml:9:5-65
+17-->[:camera_android] C:\Users\tassm\Documents\1050_processing\processing\.android\plugins_build_output\camera_android\intermediates\merged_manifest\debug\AndroidManifest.xml:9:22-62
+18    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+18-->[:camera_android] C:\Users\tassm\Documents\1050_processing\processing\.android\plugins_build_output\camera_android\intermediates\merged_manifest\debug\AndroidManifest.xml:10:5-71
+18-->[:camera_android] C:\Users\tassm\Documents\1050_processing\processing\.android\plugins_build_output\camera_android\intermediates\merged_manifest\debug\AndroidManifest.xml:10:22-68
+19
+20    <application
+20-->C:\Users\tassm\Documents\1050_processing\processing\.android\app\src\main\AndroidManifest.xml:11:5-39:19
+21        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+21-->[androidx.core:core:1.8.0] C:\Users\tassm\.gradle\caches\transforms-3\2fa18b2f544a798470f6ba6d29f55f60\transformed\core-1.8.0\AndroidManifest.xml:24:18-86
+22        android:debuggable="true"
+23        android:icon="@mipmap/ic_launcher"
+23-->C:\Users\tassm\Documents\1050_processing\processing\.android\app\src\main\AndroidManifest.xml:13:9-43
+24        android:label="processing" >
+24-->C:\Users\tassm\Documents\1050_processing\processing\.android\app\src\main\AndroidManifest.xml:12:9-35
+25        <activity
+25-->C:\Users\tassm\Documents\1050_processing\processing\.android\app\src\main\AndroidManifest.xml:14:9-33:20
+26            android:name="com.example.processing.host.MainActivity"
+26-->C:\Users\tassm\Documents\1050_processing\processing\.android\app\src\main\AndroidManifest.xml:15:13-41
+27            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+27-->C:\Users\tassm\Documents\1050_processing\processing\.android\app\src\main\AndroidManifest.xml:19:13-163
+28            android:exported="true"
+28-->C:\Users\tassm\Documents\1050_processing\processing\.android\app\src\main\AndroidManifest.xml:18:13-36
+29            android:hardwareAccelerated="true"
+29-->C:\Users\tassm\Documents\1050_processing\processing\.android\app\src\main\AndroidManifest.xml:20:13-47
+30            android:launchMode="singleTop"
+30-->C:\Users\tassm\Documents\1050_processing\processing\.android\app\src\main\AndroidManifest.xml:16:13-43
+31            android:theme="@style/LaunchTheme"
+31-->C:\Users\tassm\Documents\1050_processing\processing\.android\app\src\main\AndroidManifest.xml:17:13-47
+32            android:windowSoftInputMode="adjustResize" >
+32-->C:\Users\tassm\Documents\1050_processing\processing\.android\app\src\main\AndroidManifest.xml:21:13-55
+33
+34            <!--
+35                 This keeps the window background of the activity showing
+36                 until Flutter renders its first frame. It can be removed if
+37                 there is no splash screen (such as the default splash screen
+38                 defined in @style/LaunchTheme).
+39            -->
+40            <meta-data
+40-->C:\Users\tassm\Documents\1050_processing\processing\.android\app\src\main\AndroidManifest.xml:26:13-28:40
+41                android:name="io.flutter.app.android.SplashScreenUntilFirstFrame"
+41-->C:\Users\tassm\Documents\1050_processing\processing\.android\app\src\main\AndroidManifest.xml:27:17-82
+42                android:value="true" />
+42-->C:\Users\tassm\Documents\1050_processing\processing\.android\app\src\main\AndroidManifest.xml:28:17-37
+43
+44            <intent-filter>
+44-->C:\Users\tassm\Documents\1050_processing\processing\.android\app\src\main\AndroidManifest.xml:29:13-32:29
+45                <action android:name="android.intent.action.MAIN" />
+45-->C:\Users\tassm\Documents\1050_processing\processing\.android\app\src\main\AndroidManifest.xml:30:17-68
+45-->C:\Users\tassm\Documents\1050_processing\processing\.android\app\src\main\AndroidManifest.xml:30:25-66
+46
+47                <category android:name="android.intent.category.LAUNCHER" />
+47-->C:\Users\tassm\Documents\1050_processing\processing\.android\app\src\main\AndroidManifest.xml:31:17-76
+47-->C:\Users\tassm\Documents\1050_processing\processing\.android\app\src\main\AndroidManifest.xml:31:27-74
+48            </intent-filter>
+49        </activity>
+50        <!--
+51             Don't delete the meta-data below.
+52             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+53        -->
+54        <meta-data
+54-->C:\Users\tassm\Documents\1050_processing\processing\.android\app\src\main\AndroidManifest.xml:36:9-38:33
+55            android:name="flutterEmbedding"
+55-->C:\Users\tassm\Documents\1050_processing\processing\.android\app\src\main\AndroidManifest.xml:37:13-44
+56            android:value="2" />
+56-->C:\Users\tassm\Documents\1050_processing\processing\.android\app\src\main\AndroidManifest.xml:38:13-30
+57        <meta-data
+57-->[:flutter] C:\Users\tassm\Documents\1050_processing\processing\.android\Flutter\build\intermediates\merged_manifest\debug\AndroidManifest.xml:14:9-16:38
+58            android:name="flutterProjectType"
+58-->[:flutter] C:\Users\tassm\Documents\1050_processing\processing\.android\Flutter\build\intermediates\merged_manifest\debug\AndroidManifest.xml:15:13-46
+59            android:value="module" />
+59-->[:flutter] C:\Users\tassm\Documents\1050_processing\processing\.android\Flutter\build\intermediates\merged_manifest\debug\AndroidManifest.xml:16:13-35
+60
+61        <uses-library
+61-->[androidx.window:window:1.0.0-beta04] C:\Users\tassm\.gradle\caches\transforms-3\25cee5f028ac2a6b79fd6278ff5b59e2\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:25:9-27:40
+62            android:name="androidx.window.extensions"
+62-->[androidx.window:window:1.0.0-beta04] C:\Users\tassm\.gradle\caches\transforms-3\25cee5f028ac2a6b79fd6278ff5b59e2\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:26:13-54
+63            android:required="false" />
+63-->[androidx.window:window:1.0.0-beta04] C:\Users\tassm\.gradle\caches\transforms-3\25cee5f028ac2a6b79fd6278ff5b59e2\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:27:13-37
+64        <uses-library
+64-->[androidx.window:window:1.0.0-beta04] C:\Users\tassm\.gradle\caches\transforms-3\25cee5f028ac2a6b79fd6278ff5b59e2\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:28:9-30:40
+65            android:name="androidx.window.sidecar"
+65-->[androidx.window:window:1.0.0-beta04] C:\Users\tassm\.gradle\caches\transforms-3\25cee5f028ac2a6b79fd6278ff5b59e2\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:29:13-51
+66            android:required="false" />
+66-->[androidx.window:window:1.0.0-beta04] C:\Users\tassm\.gradle\caches\transforms-3\25cee5f028ac2a6b79fd6278ff5b59e2\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:30:13-37
+67    </application>
+68
+69</manifest>
